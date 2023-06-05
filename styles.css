@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #820ad1;
+  --secondary-color: #59069c;
+  --background: #f0f0f0;
+  --white: #fff;
+  --black: #111;
+  --gray: #4B3F72;
+}
+
+body {
+  box-sizing: border-box;
+  min-width: 19.688rem;
+  max-width: 120rem;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 500px;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul li {
+  list-style: none;
+  padding: 0.7rem;
+}
+
+.container-nav-bar button {
+  color: var(--white);
+  background: var(--primary-color);
+  padding: 0.6rem 1.25rem;
+  border-radius: 2rem;
+  border: none;
+  margin: 0.2rem 2rem 0 0;
+  cursor: pointer;
+  font-size: 1.0rem;
+}
+
+.content-nav-bar {
+  width: 100%;
+  background: var(--background);
+  position: fixed;
+  z-index: 1;
+}
+
+.content-nav-bar div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.figure-image {
+  display: flex;
+}
+
+.figure-image img {
+  width: 2.813rem;
+  margin: 0.3rem 0 0.5rem 2rem;
+  box-sizing: border-box;
+}
+
+.section-topo {
+  background: url("./images/cartao2.png") no-repeat fixed center;
+  height: 100vh;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card-title {
+  position: absolute;
+  top: 50%;
+  padding-left: 3.4rem;
+  transform: translateY(-50%);
+}
+
+.card-title {
+  width: 400pxAmor;
+}
+
+.card-title h1 {
+  color: var(--white);
+  font-size: 3rem;
+}
+
+.content-card-itens {
+  display: flex;
+  padding: 4rem 7rem 5rem 7rem;
+  max-width: 100%;
+  justify-content: space-between;
+  background: var(--gray);
+}
+
+.content-card-itens div {
+    padding: 3rem;
+    max-width: 100%;
+}
+
+.card-black-image-phone {
+    background: var(--black);
+    display: grid;
+    row-gap: 4rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-black-image-phone img{
+    height: auto;
+    box-sizing: border-box;
+    max-width: 60%;
+}
+
+.card-black-image-phone h2,
+p {
+    color: var(--white);
+    text-align: left;
+}
+
+.card-black-image-phone h2,
+.card-white-credit h2 {
+    margin: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: -0.03rem;
+}
+
+.card-black-image-phone p,
+.card-white-credit p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.card-white-credit {
+    background: var(--white);
+    display: grid;
+    row-gap: 4rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.card-white-credit img {
+    height: auto;
+    box-sizing: border-box;
+    max-width: 80%;
+}
+
+.card-white-credit p {
+    color: var(--black);
+}
+
+.container-image-background {
+  background: url('./images/cartaonubank.png') no-repeat center fixed;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container-image-background p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 0 0 1.3rem 0;
+
+}
+
+.container-image-background h4 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 0 1.3rem 0;
+}
+
+.container-image-background a {
+  color: var(--white);
+  background: var(--primary-color);
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+
+.card-background {
+  background: var(--gray);
+  border-radius: 1rem;
+  padding: 7rem 3rem 7rem 3rem;
+  margin: 0 0 0 3rem;
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem var(--black));
+}
+
+.no-taxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  background: var(--white);
+  min-height: 56.25rem;
+}
+
+.no-taxes figure {
+  /* padding: 5rem 0 5rem 7rem; */
+  display: flex;
+}
+ 
+.no-taxes img {
+  width: 800px;
+}
+
+.titule-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 31.25rem;
+}
+
+.titule-info h2 {
+  margin: -6rem 0 1rem;
+  letter-spacing: 0.04rem;
+  font-size: 3.125rem;
+}
+
+.titule-info h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.no-bureaucracy {
+  display: flex;
+  justify-content: center;
+  background: var(--background);
+}
