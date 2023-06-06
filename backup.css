@@ -4,12 +4,12 @@
 }
 
 :root {
-  --primary-color: #820ad1;
-  --secondary-color: #59069c;
-  --background: #f0f0f0;
-  --white: #fff;
+  --primary-color: #820AD1;
+  --secondary-color: #59069C;
+  --background: #F0F0F0;
+  --white: #FFF;
   --black: #111;
-  --gray: #4b3f72;
+  --gray: #4B3F72;
 }
 
 body {
@@ -39,7 +39,7 @@ button {
     #5643cc 43.89%,
     #673fd7 64.72%
   );
-
+  
   border-radius: 0.5rem;
   border-style: none;
   box-sizing: border-box;
@@ -263,41 +263,29 @@ p {
   padding: 0 0 1rem 0;
 }
 
-.second-card-title h2 {
-  font-size: 3rem;
-  margin: 6rem 0 0 0;
-}
-
-.title-container {
-  grid-column: 1 / span 5;
-  grid-row: 1;
-  display: flex;
-  justify-content: center;
-}
-
 .container-media {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-align: left;
 }
 
 .container-info-media {
-  grid-column: 7 / span 7;
-  margin: 7rem 0 0rem 0;
-  grid-row: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
 }
 
 .second-container-info-media {
   display: flex;
   flex-direction: column;
-  max-height: 3.125rem;
+  width: 50%;
+  margin: 0 0 4rem 0;
+  text-align: left;
 }
 
 .second-container-info-media h4 {
-  margin: 0 auto 1rem 0;
+  margin: 0 0 1.5rem 0;
   font-size: 1.4rem;
 }
 
@@ -319,19 +307,11 @@ p {
   width: 3.125rem;
 }
 
-.simplified-life {
-  background: url("./images/nubanklife.png") no-repeat center fixed var(--background);
-  background-size: cover;
-  position: relative;
+.container-flex {
+  display: flex;
 }
 
-.card-title2 {
-  position: absolute;
-  top: 50%;
-  padding-left: 3.4rem;
-  transform: translateY(-50%);
-}
-
-.card-title2 h2 {
-  font-size: 3rem;
+.second-card-title h2{
+  margin-bottom: 0;
+  font-size: 2.5rem;
 }
